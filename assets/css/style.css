@@ -1,5 +1,42 @@
+@font-face {
+    font-family: "Open Sans";
+    src: url('/assets/fonts/OpenSans-Regular.ttf');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+} 
+
+@font-face {
+    font-family: "Open Sans";
+    src: url('/assets/fonts/OpenSans-SemiBold.ttf');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+} 
+
+@font-face {
+    font-family: "Open Sans";
+    src: url('/assets/fonts/OpenSans-Medium.ttf');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+} 
+
+@font-face {
+    font-family: "Open Sans";
+    src: url('/assets/fonts/OpenSans-Bold.ttf');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+} 
+
+
 body{
     margin: 0;
+    font-weight: 500;
+    font-family: "Open Sans";
+    position: relative;
+	overflow-x: hidden;
 }
 
 .header{
@@ -28,6 +65,13 @@ body{
 
 .info__item{
     margin-left: 28px;
+    color: #fff;
+    list-style-type: none;
+}
+
+.info__item a{
+    text-decoration: none;
+    color: #fff;
 }
 
 .nav__cont{
@@ -45,7 +89,33 @@ body{
     margin-left: 28px;
 }
 
-.nav__item,a{
+.nav__item a{
     text-decoration: none;
+    color: #fff;
+}
+
+.nav__item a:hover{
+    color: #ffee00;
+    transition: 0.5s;
+}
+
+.title{
+    
+}
+
+.title_info{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   padding: 163px;
+   max-width: 1920px;
+   background-image: url("../img/back__title.png");
+   background-position: top center;
+	
+}
+
+.title_txt{
+    font-family: "Open Sans";
+    font-weight: 700;
     color: #fff;
 }
