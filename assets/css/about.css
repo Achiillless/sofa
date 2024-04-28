@@ -1,0 +1,57 @@
+.about_us {
+    margin-top: 90px;
+}
+
+.about_us_title {
+    font-weight: 700;
+    line-height: 52px;
+}
+
+.about_line {
+    width: 70px;
+    height: 2px;
+    background-color: #000;
+    margin-left: 15px;
+    margin-bottom: 20px;
+
+}
+
+.about_us_discrip {
+    font-size: 13px;
+    font-weight: 400;
+    max-width: 50%;
+}
+
+.about_us_img {
+    width: 2000px;
+}
+
+.about_us_info {
+    display: flex;
+    margin-top: 90px;
+    padding: 120px;
+    background: #f5f5f5;
+}
+
+.about_us_info .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.row_info_us {
+    margin-top: 50px;
+}
+
+.info_us_title {
+    font-size: 22px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+.info_us_discrip {
+    font-size: 13px;
+    font-weight: 400;
+    margin-top: 20px;
+}
