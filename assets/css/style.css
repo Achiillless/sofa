@@ -39,6 +39,12 @@ body {
     overflow-x: hidden;
 }
 
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .header {
     background-color: #000;
     background-size: 100%;
@@ -113,12 +119,30 @@ body {
     color: #fff;
     list-style-type: none;
     margin-left: 28px;
+
 }
 
 .nav__item a {
+    font-size: 14px;
+    line-height: 30px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
     text-decoration: none;
-    color: #fff;
+    color: #FFFFFF;
+    position: relative;
 }
+
+.nav__item a::after{
+    content: "";
+    position: absolute;
+    top: calc(100% + 10px);
+    left: 0;
+    width: 0%;
+    height: 2px;
+    background: #ffffff;
+    transition: .3s;
+}
+
 
 .nav__item a:hover {
     color: #d7bb41;
@@ -127,7 +151,7 @@ body {
 
 .title {
     position: relative;
-    background-image: url("../img/back__title.png");
+    background-image: url("../img/back_title.png");
     background-repeat: no-repeat;
     background-size: cover;
     height: 500px;
@@ -146,13 +170,15 @@ body {
 
 .title_txt {
     font-weight: 700;
-    color: #fff;
+    color: #ffffff;
+    font-size: 25px;
 }
 
 .title_txt_2 {
     color: #fff;
     font-weight: 500;
     margin-top: 20px;
+    font-size: 18px;
 }
 
 .title_button {
@@ -170,4 +196,92 @@ body {
     background-color: #fff;
     transition: 0.4s;
     color: #000;
+}
+
+.offers{
+    margin-top: 20px;
+}
+
+.card_item{
+    position: relative;
+    width: 50%;
+    margin-right: 100px;
+}
+
+.card_item:nth-child(1){
+    margin-left: 100px;
+}
+
+.card_img{
+    width: 460px;
+    height: 380px;
+}
+
+.card_item .title_button{
+    position: absolute;
+    top: 78%;
+    left: 10%;
+    background-color: #fff;
+    color: #000;
+}
+
+.card_item .title_button:hover{
+    background-color: #000;
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+.about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 90px;
+}
+
+.about_row{
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+.about_card{
+    margin-bottom: 40px;
+}
+
+.about_title{
+    font-size: 28px;
+    font-weight: 700;
+
+}
+
+.about_card{
+    display: flex;
+    flex-direction: column;
+    padding: 100px 220px;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid #e7e7e7;
+    max-height: 375px;
+    max-width: 660px;
+}
+
+.about_subtitle{
+    font-size: 22px;
+    font-weight: 500;
+    margin-top: 25px;
+}
+
+.about_discrip{
+    font-size: 13px;
+    margin-top: 20px;
+}
+
+.reviews{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
 }
