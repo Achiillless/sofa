@@ -4,7 +4,7 @@
     font-weight: 400;
     font-style: normal;
     font-display: swap;
-} 
+}
 
 @font-face {
     font-family: "Open Sans";
@@ -12,7 +12,7 @@
     font-weight: 600;
     font-style: normal;
     font-display: swap;
-} 
+}
 
 @font-face {
     font-family: "Open Sans";
@@ -20,7 +20,7 @@
     font-weight: 500;
     font-style: normal;
     font-display: swap;
-} 
+}
 
 @font-face {
     font-family: "Open Sans";
@@ -28,94 +28,146 @@
     font-weight: 700;
     font-style: normal;
     font-display: swap;
-} 
+}
 
 
-body{
+body {
     margin: 0;
     font-weight: 500;
     font-family: "Open Sans";
     position: relative;
-	overflow-x: hidden;
+    overflow-x: hidden;
 }
 
-.header{
+.header {
     background-color: #000;
     background-size: 100%;
-    padding: 16px;
     width: auto;
+    position: relative;
 }
 
-.info{
+.delivery{
+    background-color: #d7bb41;
+    font-weight: 500;
+    padding: 15px;
     display: flex;
     justify-content: center;
 }
 
+.delivery_title{
+    color: #333333;
+}
 
+.info {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: -10px;
+}
 
-.info__cont{
+.info__cont {
     display: flex;
     justify-content: space-between;
 }
 
-.info__ul{
+.info__ul {
     display: flex;
     max-width: 100%;
 }
 
-.info__item{
+.info__item {
     margin-left: 28px;
     color: #fff;
     list-style-type: none;
 }
 
-.info__item a{
+.info__item a {
     text-decoration: none;
     color: #fff;
+    font-size: 12px;
 }
 
-.nav__cont{
+.info__item a:hover{
+    color: #d7bb41;
+    transition: 0.5s;
+}
+
+.item_img{
+    height: 13px;
+}
+
+.line_up{
+    background-color: #fff;
+}
+
+.nav__cont {
     display: flex;
     justify-content: center;
 }
 
-.nav__info{
+.nav__info {
     display: flex;
 }
 
-.nav__item{
+.nav__item {
     color: #fff;
     list-style-type: none;
     margin-left: 28px;
 }
 
-.nav__item a{
+.nav__item a {
     text-decoration: none;
     color: #fff;
 }
 
-.nav__item a:hover{
-    color: #ffee00;
+.nav__item a:hover {
+    color: #d7bb41;
     transition: 0.5s;
 }
 
-.title{
-    
+.title {
+    position: relative;
+    background-image: url("../img/back__title.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
 }
 
-.title_info{
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-   padding: 163px;
-   max-width: 1920px;
-   background-image: url("../img/back__title.png");
-   background-position: top center;
-	
+.title_info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1920px;
+
 }
 
-.title_txt{
-    font-family: "Open Sans";
+.title_txt {
     font-weight: 700;
     color: #fff;
+}
+
+.title_txt_2 {
+    color: #fff;
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+.title_button {
+    background-color: #000;
+    padding: 16px 90px;
+    border: 1px solid #fff;
+    transition: 0.4s;
+    border-radius: 3px;
+    color: #fff;
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+.title_button:hover {
+    background-color: #fff;
+    transition: 0.4s;
+    color: #000;
 }
