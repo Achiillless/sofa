@@ -1,0 +1,124 @@
+@media only screen and (max-width: 575px){
+     
+}
+
+@media only screen and (max-width: 991px){
+
+}
+
+@media only screen and (max-width: 1660px){
+    .card_item{  
+        margin-right: 60px;
+    }
+   
+    .card_item:nth-child(1){
+        margin-left: 50px;
+    }
+
+    .card_img{
+        width: 330px;
+        height: 270px;
+    }
+
+    .card_item .title_button{
+        top: 70%;
+        left: 7%;
+        padding: 10px 50px;
+    }
+
+    .about_title{
+        font-size: 24px;
+    }
+
+    .about_card{
+        padding: 80px 170px;
+        max-height: 335px;
+        max-width: 560px;
+    }
+       
+}
+
+@media only screen and (max-width: 1250px){
+    .card_item{
+        margin-right: 5px;
+    }
+
+    .card_item:nth-child(1){
+        margin-left: 30px;
+    }
+
+    .card_img{
+        width: 250px;
+        height: 230px;
+    }
+
+    .card_item .title_button{
+        top: 70%;
+        left: 7%;
+        padding: 7px 35px;
+    }
+
+    .about_title{
+        font-size: 20px;
+    }
+
+    .about_card{
+        padding: 50px 120px;
+        max-height: 235px;
+        max-width: 460px;
+    }
+
+    .about_subtitle{
+        font-size: 17px;
+        font-weight: 500;
+        margin-top: 25px;
+    }
+    
+    .about_discrip{
+        font-size: 8px;
+        margin-top: 20px;
+    }
+
+    .reviews_title{
+        font-size: 20px;
+    }
+
+    .reviews_subtitle{
+        max-width: 370px;
+        max-height: 205px;
+        padding: 30px 10px;
+        font-size: 9px;
+    }
+
+    .reviews_card img{
+        height: 50px;
+    }
+    
+    .reviews_title{
+        font-size: 24px;
+        font-weight: 700;
+    }
+
+    .reviews_card img{
+        height: 50px;
+    }
+    
+    .reviews_name{
+        font-size: 14px;
+       margin-top: 7px;
+    }
+    
+    .reviews_rate{
+        font-size: 12px;
+        margin-top: 4px;
+    }
+    
+    .reviews_date{
+        margin-top: 7px;
+        font-size: 10px;
+    }
+    
+    .review_img{
+        height: 30px;
+    } 
+} 
