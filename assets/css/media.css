@@ -1,310 +1,426 @@
-
-@media only screen and (max-width: 1660px){
-    .card_item{  
+@media only screen and (max-width: 1660px) {
+    .card_item {
         margin-right: 60px;
     }
-   
-    .card_item:nth-child(1){
+
+    .card_item:nth-child(1) {
         margin-left: 50px;
     }
 
-    .card_img{
+    .card_img {
         width: 330px;
         height: 270px;
     }
 
-    .card_item .title_button{
+    .card_item .title_button {
         top: 70%;
         left: 7%;
         padding: 10px 50px;
     }
 
-    .about_title{
+    .about_title {
         font-size: 24px;
     }
 
-    .about_card{
+    .about_card {
         padding: 80px 170px;
         max-height: 335px;
         max-width: 560px;
     }
-       
+
 }
 
-@media only screen and (max-width: 1250px){
-    .card_item{
+@media only screen and (max-width: 1250px) {
+    .card_item {
         margin-right: 5px;
     }
 
-    .card_item:nth-child(1){
+    .card_item:nth-child(1) {
         margin-left: 30px;
     }
 
-    .card_img{
+    .card_img {
         width: 250px;
         height: 230px;
     }
 
-    .card_item .title_button{
+    .card_item .title_button {
         top: 70%;
         left: 7%;
         padding: 7px 35px;
     }
 
-    .about_title{
+    .about_title {
         font-size: 20px;
     }
 
-    .about_card{
+    .about_card {
         padding: 50px 120px;
         max-height: 235px;
         max-width: 460px;
     }
 
-    .about_subtitle{
+    .about_subtitle {
         font-size: 17px;
         font-weight: 500;
         margin-top: 25px;
     }
-    
-    .about_discrip{
+
+    .about_discrip {
         font-size: 8px;
         margin-top: 20px;
     }
 
-    .reviews_title{
+    .reviews_title {
         font-size: 20px;
     }
 
-    .reviews_subtitle{
+    .reviews_subtitle {
         max-width: 370px;
         max-height: 205px;
         padding: 30px 10px;
         font-size: 9px;
     }
 
-    .reviews_card img{
+    .reviews_card img {
         height: 50px;
     }
-    
-    .reviews_title{
+
+    .reviews_title {
         font-size: 24px;
         font-weight: 700;
     }
 
-    .reviews_card img{
+    .reviews_card img {
         height: 50px;
     }
-    
-    .reviews_name{
+
+    .reviews_name {
         font-size: 14px;
-       margin-top: 7px;
+        margin-top: 7px;
     }
-    
-    .reviews_rate{
+
+    .reviews_rate {
         font-size: 12px;
         margin-top: 4px;
     }
-    
-    .reviews_date{
+
+    .reviews_date {
         margin-top: 7px;
         font-size: 10px;
     }
-    
-    .review_img{
-        height: 30px;
-    } 
-} 
 
-@media only screen and (max-width: 991px){
-    .card_item{  
+    .review_img {
+        height: 30px;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .card_item {
         margin-right: 2px;
     }
-   
-    .card_item:nth-child(1){
+
+    .card_item:nth-child(1) {
         margin-left: 10px;
     }
 
-    .card_img{
+    .card_img {
         width: 220px;
         height: 180px;
     }
 
-    .card_item .title_button{
+    .card_item .title_button {
         top: 60%;
         left: 8%;
         padding: 6px 30px;
     }
 
-    .about_title{
+    .about_title {
         font-size: 17px;
     }
 
-    .about_card{
+    .about_card {
         padding: 30px 90px;
         max-height: 165px;
         max-width: 300px;
     }
 
-    .about_card img{
+    .about_card img {
         height: 15px;
     }
 
-    .about_subtitle{
+    .about_subtitle {
         font-size: 10px;
         font-weight: 500;
         margin-top: 20px;
     }
-    
-    .about_discrip{
+
+    .about_discrip {
         font-size: 4px;
         margin-top: 5px;
     }
 
-    .reviews_title{
+    .reviews_title {
         font-size: 15px;
     }
 
-    .reviews_subtitle{
+    .reviews_subtitle {
         max-width: 320px;
         max-height: 180px;
         padding: 20px 6px;
         font-size: 6px;
     }
 
-    .reviews_card img{
+    .reviews_card img {
         height: 35px;
     }
 
-    .reviews_name{
+    .reviews_name {
         font-size: 10px;
-       margin-top: 5px;
+        margin-top: 5px;
     }
-    
-    .reviews_rate{
+
+    .reviews_rate {
         font-size: 7px;
         margin-top: 4px;
     }
-    
-    .reviews_date{
+
+    .reviews_date {
         margin-top: 5px;
         font-size: 10px;
     }
-    
-    .review_img{
+
+    .review_img {
         height: 20px;
-    } 
+    }
 
+    .about_us_title {
+        font-weight: 700;
+        font-size: 12px;
+    }
 
+    .about_line {
+        width: 50px;
+        height: 2px;
+        background-color: #000;
+        margin-left: 15px;
+        margin-bottom: 20px;
+
+    }
+
+    .about_us_discrip {
+        font-size: 10px;
+    }
+
+    .about_us_img {
+        width: 1500px;
+    }
+
+    .about_us_info {
+        margin-top: 80px;
+        padding: 100px;
+    }
+
+    .about_us_info .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .row_info_us {
+        margin-top: 40px;
+    }
+
+    .info_us_title {
+        font-size: 15px;
+        font-weight: 700;
+        margin-top: 10px;
+    }
+
+    .info_us_discrip {
+        font-size: 8px;
+        font-weight: 400;
+        margin-top: 10px;
+    }
+
+    .row_info_us img {
+        height: 30px;
+    }
 }
 
-@media only screen and (max-width: 575px){
-    .info__item a{
+@media only screen and (max-width: 575px) {
+    .info__item a {
         font-size: 0px;
     }
 
     .title_txt {
         font-size: 15px;
     }
-    
+
     .title_txt_2 {
         margin-top: 10px;
         font-size: 10px;
     }
-    
+
     .title_button {
         padding: 8px 30px;
         margin-top: 20px;
         font-size: 10px;
     }
 
-    .card_item{  
+    .card_item {
         margin-right: 0px;
     }
-   
-    .card_item:nth-child(1){
+
+    .card_item:nth-child(1) {
         margin-left: 5px;
     }
 
-    .card_img{
+    .card_img {
         width: 130px;
         height: 120px;
     }
 
-    .card_item .title_button{
+    .card_item .title_button {
         top: 50%;
         left: 12%;
         padding: 6px 30px;
     }
 
-    .card_item .title_button{
+    .card_item .title_button {
         padding: 5px 20px;
     }
 
-    .about_title{
+    .about_title {
         font-size: 12px;
     }
 
-    .about_card{
+    .about_card {
         padding: 20px 70px;
         max-height: 100px;
         max-width: 200px;
     }
 
-    .about_card img{
+    .about_card img {
         height: 10px;
     }
 
-    .about_subtitle{
+    .about_subtitle {
         font-size: 5px;
         font-weight: 500;
         margin-top: 20px;
     }
-    
-    .about_discrip{
+
+    .about_discrip {
         font-size: 2px;
         margin-top: 5px;
     }
 
-    .reviews_title{
+    .reviews_title {
         font-size: 12px;
     }
 
-    .reviews_subtitle{
+    .reviews_subtitle {
         max-width: 250px;
         max-height: 120px;
         padding: 13px 4px;
         font-size: 4px;
     }
 
-    .reviews_card img{
+    .reviews_card img {
         height: 20px;
     }
 
-    .reviews_name{
+    .reviews_name {
         font-size: 8px;
-       margin-top: 3px;
+        margin-top: 3px;
     }
-    
-    .reviews_rate{
+
+    .reviews_rate {
         font-size: 4px;
         margin-top: 2px;
     }
-    
-    .reviews_date{
+
+    .reviews_date {
         margin-top: 3px;
         font-size: 7px;
     }
-    
-    .review_img{
-        height: 10px;
-    } 
 
-    .footer_item a{
+    .review_img {
+        height: 10px;
+    }
+
+    .footer_item a {
         font-size: 0px;
     }
 
-    .contact_title{
+    .contact_title {
         font-size: 12px;
+    }
+
+
+
+    .about_us .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .row_about_us {
+        margin-bottom: 30px;
+    }
+
+    .about_us_title {
+        font-weight: 700;
+        font-size: 10px;
+    }
+
+    .about_line {
+        width: 0px;
+
+    }
+
+    .about_us_discrip {
+        font-size: 10px;
+        margin-left: 130px;
+    }
+
+    .about_us_img {
+        width: 500px;
+    }
+
+    .about_us_info {
+        margin-top: 80px;
+        padding: 100px;
+    }
+
+    .about_us_info .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .row_info_us {
+        margin-top: 40px;
+    }
+
+    .info_us_title {
+        font-size: 15px;
+        font-weight: 700;
+        margin-top: 10px;
+    }
+
+    .info_us_discrip {
+        font-size: 8px;
+        font-weight: 400;
+        margin-top: 10px;
+    }
+
+    .row_info_us img {
+        height: 30px;
     }
 }
