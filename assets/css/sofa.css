@@ -45,6 +45,12 @@
     text-align: center;
 }
 
+.sofa_item_img{
+    max-width: 310px;
+    min-height: 310px;
+}
+
+
 .sofa_item:hover{
     color: black;
 }
