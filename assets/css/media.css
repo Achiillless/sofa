@@ -34,17 +34,6 @@
        margin-left: 20px;
     }
 
-    .filtres{
-        padding: 8px 40px;
-        margin-top: 40px;
-        margin-left: 20px;
-    }
-
-    .filtres img{
-        margin-right: 6px;
-        margin-bottom: 3px;
-    }
-
     .sofa_section .row{
         margin: 30px;
     }
@@ -163,17 +152,6 @@
        margin-left: 20px;
     }
 
-    .filtres{
-        padding: 6px 25px;
-        margin-top: 40px;
-        margin-left: 20px;
-    }
-
-    .filtres img{
-        margin-right: 6px;
-        margin-bottom: 3px;
-    }
-
     .sofa_section .row{
         margin: 30px;
     }
@@ -194,6 +172,31 @@
     .sofa_item_cost{
         font-size: 9px;
     }
+
+    .card_main_row .title_button{
+        padding: 10px 60px;
+     }
+     
+     .card_main_img{
+         max-height: 400px;
+         min-width: 350px;
+     }
+     
+     .card_main_title{
+         font-size: 17px;
+         font-weight: 500;
+         margin-bottom: 20px;
+     }
+     
+     .card_main_cost{
+         font-size: 17px;
+         font-weight: 700;
+     }
+     
+     .card_main_info{
+         font-size: 7px;
+     }
+
 }
 
 @media only screen and (max-width: 991px) {
@@ -349,6 +352,32 @@
     .sofa_item_cost{
         font-size: 6px;
     }
+
+    .card_main_row{
+        margin-right: 70px;
+     }
+
+    .card_main_row .title_button{
+        padding: 8px 40px;
+     }
+     
+     .card_main_img{
+         max-height: 250px;
+         min-width: 200px;
+     }
+     
+     .card_main_title{
+         font-size: 14px;
+         margin-bottom: 20px;
+     }
+     
+     .card_main_cost{
+         font-size: 14px;
+     }
+     
+     .card_main_info{
+         font-size: 5px;
+     }
 }
 
 @media only screen and (max-width: 575px) {
@@ -532,18 +561,6 @@
        margin-left: 20px;
     }
 
-    .filtres{
-        padding: 4px 20px;
-        margin-top: 40px;
-        margin-left: 20px;
-        font-size: 10px;
-    }
-
-    .filtres img{
-        margin-right: 6px;
-        margin-bottom: 3px;
-    }
-
     .sofa_section .row{
         margin: 5px;
     }
@@ -564,4 +581,30 @@
     .sofa_item_cost{
         font-size: 4px;
     }
+
+    .card_main_row{
+        margin-right: 40px;
+     }
+
+    .card_main_row .title_button{
+        padding: 5px 30px;
+     }
+     
+     .card_main_img{
+         max-height: 100px;
+         min-width: 50px;
+     }
+     
+     .card_main_title{
+         font-size: 8px;
+         margin-bottom: 15px;
+     }
+     
+     .card_main_cost{
+         font-size: 8px;
+     }
+     
+     .card_main_info{
+         font-size: 3px;
+     }
 }

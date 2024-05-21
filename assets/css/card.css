@@ -1,0 +1,33 @@
+.card_main_sofa{
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.card_main_row{
+   margin-right: 100px;
+}
+
+.card_main_row .title_button:hover{
+   border: 1px solid #000;
+}
+
+.card_main_img{
+    max-height: 500px;
+    min-width: 450px;
+}
+
+.card_main_title{
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.card_main_cost{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.card_main_info{
+    font-size: 10px;
+}
